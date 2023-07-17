@@ -22,7 +22,7 @@ class AlarmClock {
         let hour = count / 60
         let min = count % 60
         print("現在\(hour)時\(min)分です。")
-        if limit <= count {
+        if limit == count {
             print("朝です。起きてください！現在\(hour)時\(min)分です。")
             timer?.invalidate()
         }
