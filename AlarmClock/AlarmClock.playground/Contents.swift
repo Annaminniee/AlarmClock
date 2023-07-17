@@ -15,7 +15,6 @@ class AlarmClock {
             selector: #selector(countup),
             userInfo: nil,
             repeats: true)
-        
     }
     
     @objc func countup() {
