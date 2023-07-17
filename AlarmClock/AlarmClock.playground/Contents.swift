@@ -6,7 +6,7 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 class AlarmClock {
     var timer: Timer?
     var count = 0
-    var limit = 120
+    var limit = 0
     
     func start() {
         timer = Timer.scheduledTimer(
